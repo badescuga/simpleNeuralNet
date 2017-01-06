@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
-    printf("totul e bine! \n\n");
+    printf("totul e bine! Super Bine! \n\n");
+    int a = 3;
     return 1;
 }
