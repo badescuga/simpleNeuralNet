@@ -1,0 +1,3 @@
+/Users/badescuga/Work/neuralNetCpp/Debug/CMakeFiles/rebuild_cache.dir
+/Users/badescuga/Work/neuralNetCpp/Debug/CMakeFiles/edit_cache.dir
+/Users/badescuga/Work/neuralNetCpp/Debug/CMakeFiles/SimpleNeuralNet.dir

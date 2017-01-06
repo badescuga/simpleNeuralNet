@@ -1,0 +1,16 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "C:\\MinGW\\bin\\g++.exe",
+    "isShellCommand": true,
+   // "args": ["-g" , "project\\main.cpp","project\\TestClass1.h", "project\\TestClass1.cpp"],
+// "args":["-g","project\\*.h", "project\\*.cpp", "-I","project\\cpprest","-I","project\\signalrclient\\"],
+"args":["-g","project\\*.h", "project\\*.cpp",
+ "-I","project\\cpprest\\cpprest\\*.h",
+ "-I","project\\cpprest\\pplx\\*.h",
+  "-I","project\\cpprest\\cpprest\\details\\*.h",
+ "-I","project\\signalrclient\\"],
+   // "args":["-o","test","*.cpp","*.h"],
+    "showOutput": "always"
+}

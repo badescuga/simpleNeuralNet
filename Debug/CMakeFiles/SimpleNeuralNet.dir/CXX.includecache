@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/badescuga/Work/neuralNetCpp/NNPerceptron.h
+iostream
+-
+list
+-
+
+/Users/badescuga/Work/neuralNetCpp/main.cpp
+NNPerceptron.h
+/Users/badescuga/Work/neuralNetCpp/NNPerceptron.h
+iostream
+-
+list
+-
+
